@@ -1,15 +1,28 @@
-import React from "react";
-import Header from "./components/ToLet/Header";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "./index.css";
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <Header/>
+import { Footer, Carousel, Searchbar, Features, Faqs, Header, Hero } from './containers';
+import { Article, CTA, Navbar, Feature, About } from './components';
+
+import './App.css';
+
+const App = () => {
+  return(
+    <div className='App'>
+      <div className='gradient-bg'>
+        <Navbar />
+      </div>
+        <Searchbar />  
+        <Header />
+        <Article />
+        <CTA />
+        <Feature />  
+        <About />
+        <Hero />
+        <Carousel />
+        <Faqs />
+        <Features />
+        <Footer />
     </div>
-    
-  );
-}
-<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    )
+};
 export default App;

@@ -1,27 +1,14 @@
-.navbar-nav {
-  margin-left: 3rem;
-}
-.navbar-nav .nav-item {
-  padding-left: 1.3rem;
-}
-.navbar-nav .nav-item a {
-  color: rgb(109, 51, 3);
-  font-weight: 500;
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
-.searchbox {
-  padding: 1rem 4rem 1rem 4rem;
-  background-color: rgb(3, 109, 77);
-}
+:root {
+  --font-family: 'Plus Jakarta Sans';
 
-.home {
-  src: url("/src/assests/Home/home-bg.jpg");
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #F9F5EF;
+  --color-footer : #76df9e;
+  --color-blog: #eccc63;
+  --color-text: #741b00;
+  --color-subtext: #FF8A71;
 }
-
-.btn-color {
-  background-color: rgb(218, 18, 18);
-  margin: 24rem;
-}
-.btn-color:hover {
-  background-color: #000000;
-}/*# sourceMappingURL=index.css.map */
