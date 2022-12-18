@@ -1,29 +1,28 @@
 
 /* Seachbox nav */
 .searchbox {
-    padding: 1rem 4rem 1rem 4rem;
-    background-color: #00455A;
+padding: 1rem 4rem 1rem 4rem;
+background-color: #00455A;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding: 0px;
+padding: 1rem 4rem 1rem 12rem !important;
 gap: 24px;
 font-family:var(--font-family);
 position: absolute;
 width:100%;
 height: 104px;
 left: 0px;
-top: 95px;
+top: 80px;
 }
 .searchbox input {
 position: relative;
 height: 50px;
 width: 333px;
 left: 3rem;
-top: 19px;
-border-radius: 8px;
-Padding:12px, 16px, 12px, 16px;
-/* justify: space-between; */
+top: 4px;
+border-radius: 8px; 
+justify: space-between;
 margin:0.4rem;
 font-family:var(--font-family);
 font-style: normal;
@@ -36,8 +35,8 @@ line-height: 150%;
 .search-btn{
     position: relative;
     padding: 0.5rem 1rem;
-    color: #00455A;
-    background: #C29A5C;
+    color: #00455A !important;
+    background: #C29A5C !important;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -49,13 +48,14 @@ line-height: 150%;
     justify-content: center;
     align-items: center;
     padding: 12px 0px;
-    /* gap: 40px; */
+     gap: 40px;
     margin: 0.4rem;
     border: 2px solid #C29A5C;
     width: 108px;
     height: 48px;
     border-radius: 8px;
-    top: 1.27rem;
+    top: 4px;
     left: 3rem;
-
+    
 }
+

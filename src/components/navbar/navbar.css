@@ -23,7 +23,7 @@
     left: 0px;
     top: 0px;
     border-radius: 0px;
-    
+    margin: 4px 78px 11px -135px;
 }
 
 .tech__navbar-links_container {
@@ -80,7 +80,7 @@
     width: 108px;
     height: 48px;
     border-radius: 8px;
-
+    margin: 11px -168px 0px 176px;
 }
 
 .tech__navbar-menu {
