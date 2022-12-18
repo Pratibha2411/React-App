@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Footer, Carousel, Searchbar, Features, Faqs, Header, Hero } from './containers';
-import { Article, CTA, Navbar, Feature, About } from './components';
+import { Article, CTA, Navbar, PropertyZero, PropertyOne, PropertyTwo, About } from './components';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 {/* <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" /> */}
 
@@ -16,12 +16,14 @@ const App = () => {
         <Searchbar />  
         <Header />
         <Article />
-        <CTA />
-        <Feature />  
+        <PropertyZero />  
+        <PropertyOne />  
+        <PropertyTwo />  
         <About />
         <Hero />
         <Carousel />
         <Faqs />
+        <CTA />
         <Features />
         <Footer />
     </div>

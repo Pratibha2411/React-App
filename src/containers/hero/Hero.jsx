@@ -3,25 +3,15 @@ import './hero.css';
 
 const Hero = () => {
   return (
-    <div className='container hero-body'>
-        <div className="row"> 
-            <div className="col">
-                <div className="hero-heading">
-                    <h3>Looking for a new place? Make an enquiry.</h3>
-                </div>
-                <div className="hero-para">
-                    <p>We have seven locations across London. Make anenquiry today with apartments immediately available to move into.</p>
-                </div>
-                <div className="hero-btn">
-                    <button type='button' className='hero-btn'>Make an enquiry</button>
-                </div>
+    <div className='card'>
+        <div className="card-body hero-body"> 
+            <h5 className='card-title text-center'>Looking for a new place? Make an enquiry.</h5>
+            <p className='card-text text-center'>We have seven locations across London. Make anenquiry today with apartments immediately available to move into.</p>
+            <div className="hero-btn">
+                <button type='button' className='hero-btn'>Make an enquiry</button>
             </div> 
-            <div className="col hero-img">
-                
-            </div>
         </div>
     </div>
   )
 }
-
 export default Hero

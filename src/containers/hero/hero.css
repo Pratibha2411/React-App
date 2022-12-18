@@ -1,5 +1,8 @@
-.hero-body{
-    position: absolute;
+.card{
+    width: 100%;
+}
+.hero-body{  
+/* position: absolute; */
 width:100%;
 height: 349.47px;
 /* left: 1rem; */
@@ -7,6 +10,7 @@ height: 349.47px;
 background: #C1995B;
 background-repeat: no-repeat;
 /* background-size: ; */
+color: #FFFFFF !important;
 }
 .hero-heading{
 width: 591px;

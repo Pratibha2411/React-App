@@ -1,0 +1,17 @@
+.accordion-body{
+align-items: center;
+padding: 112px 64px;
+width: 100%;
+/* height: 864px; */
+/* gold */
+background: #C1995B;
+}
+.accordion-heading{
+font-family: var(--font-family);
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: left;
+
+}

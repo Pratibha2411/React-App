@@ -1,9 +1,13 @@
 import React from 'react';
 import './header.css';
-
+// import HeaderImg from '../../assets/header.jpg';
 const Header = () => {
   return (
     <div className='header-body container'>
+      {/* <div className="card">
+      <img className="header-img card-img-top" src="{HeaderImg}" alt="" srcset="" />
+      </div> */}
+      
       <div className='header-heading'>
         <h3>St John Residential Lettings</h3>
       </div>

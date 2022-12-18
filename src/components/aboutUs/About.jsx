@@ -3,17 +3,15 @@ import './about.css';
 
 const About = () => {
   return (
-    <div className='container about-body'>
-        <div className="about-heading">
-        <h3 >About St John Lettings</h3>
-        </div>
-        <div className="about-para">
-        <p>Offering hight and flats in premium developments across London.</p>
-        </div>
-        <div className="about-btn">
-        <button type='button'>Find out more</button>
-        </div>
-    </div>
+    <div className="card">
+  <div className="card-body about-body">
+    <h5 className="card-title text-center">About St John Lettings</h5>
+    <p className="card-text text-center">Offering hight and flats in premium developments across London.</p>
+    <div classNameName="about-btn">
+         <button type='button' className='about-btn'>Find out more</button>
+         </div>
+  </div>
+</div>
   )
 }
 
