@@ -6,9 +6,11 @@ const About = () => {
 
   <div className="card-body about-body">
     <h5 className="card-title text-center display-4 fw-semibold about-heading">About St John Lettings</h5>
-    <p className="card-text text-center lead fw-normal about-para">Offering hight and flats in premium developments across London.</p>
+    <div className="about-para">
+      <p className="card-text text-center lead fw-normal">Offering hight and flats in premium developments across London.</p>
+    </div>
     <div>
-         <button type='button' className='about-btn'>Find out more</button>
+         <button type='button' className='btn about-btn'>Find out more</button>
     </div>
   </div>
 

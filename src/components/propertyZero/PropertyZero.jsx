@@ -16,7 +16,7 @@ const PropertyZero = () => {
       </div>
       </div>
       <div className="col">
-    <a href="#" className="btn btn-primary zero-btn">View Properties0</a>
+    <a href="#" className="btn zero-btn">View Properties</a>
     </div>
     </div>
   </div>

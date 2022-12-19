@@ -39,9 +39,10 @@ font-family: 'Plus Jakarta Sans';
 .article-btn{
     width: 174px;
     height: 48px;
-    background: #00455A;
     border-radius: 8px;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
+    background: #C1995B !important;
     top: -58px;
     position: relative;
+    border-color: #C1995B;
 }

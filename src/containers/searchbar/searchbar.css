@@ -35,8 +35,8 @@ line-height: 150%;
 .search-btn{
     position: relative;
     padding: 0.5rem 1rem;
-    color: #00455A !important;
-    background: #C29A5C !important;
+    color: #FFFFFF !important;
+    background: #C1995B !important;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;

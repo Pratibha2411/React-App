@@ -1,10 +1,9 @@
 .card{
     width: 100%;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
 }
 .two-body{
         box-sizing: border-box;
-        /* display: flex; */
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -16,16 +15,39 @@
         border-bottom: 5px solid #FFFFFF;
         color: #FFFFFF !important;
         }
+.two-heading{
+    font-family: 'Playfair Display';
+    font-size:1.9rem;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 120%;
+color: #F9F5EF;
+position: relative;
+top: 30px;
+left: 73px;
+}
+.two-para{
+    width: 1021px;
+    height: 62px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #F9F5EF;
+    top: 40px;
+    position: relative;
+    left: 73px;
+}
 .two-btn{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-    gap: 10px;
-    width: 173px;
-    height: 48px;
-    background: #C1995B;
-    border-radius: 8px;
-    }
+    margin-left: 1413px !important;
+margin-top: -174px;
+color: #FFFFFF !important;
+background: #C1995B !important;
+border:#C1995B;
+border-radius: 8px solid red !important;
+  }
+    
     

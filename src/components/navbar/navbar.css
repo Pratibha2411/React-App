@@ -56,7 +56,6 @@
 .tech__navbar-sign button,
 .tech__navbar-menu_container button {
     padding: 0.5rem 1rem;
-    color: #00455A;
     background: #C29A5C;
     font-family: var(--font-family);
     font-weight: 500;
@@ -81,6 +80,8 @@
     height: 48px;
     border-radius: 8px;
     margin: 11px -168px 0px 176px;
+    color: #FFFFFF !important;
+background: #C1995B !important;
 }
 
 .tech__navbar-menu {

@@ -12,8 +12,8 @@ background-size: cover;
 position:relative;
 color: #00455A !important;
 height: 431px;
-left: 1rem;
-top: 96.45px;
+left: 0rem;
+top: -3.55px;
 /* justify-content: center; */
 text-align: center;
 }
@@ -23,6 +23,8 @@ text-align: center;
 /* width: 928px;
 height: 30px; */
 font-family: 'Playfair Display';
+position: relative;
+top: 93px;
 /* font-style: normal;
 font-weight: 10;
 font-size: 46px;
@@ -35,7 +37,7 @@ color: #00455A; */
 /* width: 928px;
 height: 30px; */
 position: relative;
-top: -57px;
+top: 8px;
 font-family: 'Plus Jakarta Sans';
 /* font-style: normal;
 font-weight: 10;
@@ -47,9 +49,10 @@ color: #000000; */
 .about-btn{
     width: 174px;
     height: 48px;
-    background: #00455A;
-    border-radius: 8px;
-    color: #FFFFFF;
-    top:-119px;
+    background: #C1995B !important;
+    color: #FFFFFF !important;
+    border-color: #C1995B;
+    top: -45px;
     position: relative;
+    border:2px solid #C1995B !important;
 }

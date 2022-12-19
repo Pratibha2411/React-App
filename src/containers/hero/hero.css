@@ -13,31 +13,44 @@ background-repeat: no-repeat;
 color: #FFFFFF !important;
 }
 .hero-heading{
-width: 591px;
-height: 116px;
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 120%;
-color: #FFF8F8;
-
+    width: 409px;
+    /* height: 116px; */
+    height: 96px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #FFF8F8;
+    margin-left: 100px;
 }
 .hero-para{
-width: 591px;
-height: 54px;
-font-family: 'Plus Jakarta Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFF8F8;
-
+    width: 495px;
+    /* height: 54px; */
+    height: 65px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFF8F8;
+    font-family: Plus Jakarta Sans;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 101px;
 }
 .hero-btn{
-width: 174px;
-height: 48px;
+    width: 153px;
+height: 45px;
 background: #00455A;
-border-radius: 8px;
+border: 3px solid #00455A;
+border-radius: 7px;
 color: #FFFFFF;
+margin-left: 106px;
+position: relative;
+}
+.hero-col-1{
+    position: relative;
+    top: 35px;
 }
